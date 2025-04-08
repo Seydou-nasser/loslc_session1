@@ -1,60 +1,49 @@
-### 🔁 **Exercice - Bubble Sort (15 pts)**
+Je vais vous montrer comment exécuter chaque fichier dans votre dépôt. Voici un exemple de documentation pour exécuter les fichiers JavaScript dans votre dépôt `Seydou-nasser/loslc_session1` :
 
-**Sujet :** Implémenter le tri à bulles.
+## Exécution des fichiers JavaScript
 
-**Énoncé :**  
-Écris une fonction `tri_bulle(liste)` qui prend une liste de nombres entiers et la trie **en ordre croissant** en utilisant l'algorithme du **tri à bulles**.
+### Prérequis
+- Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine. Vous pouvez vérifier l'installation en exécutant la commande suivante dans votre terminal :
+  ```sh
+  node -v
+  ```
+  La commande ci-dessus doit afficher la version de Node.js installée.
 
-**Exemple :**
+### Étapes pour exécuter un fichier JavaScript
 
-```python
-tri_bulle([5, 2, 9, 1])  # doit renvoyer [1, 2, 5, 9]
-```
+1. **Cloner le dépôt** (si ce n'est pas déjà fait) :
+   ```sh
+   git clone https://github.com/Seydou-nasser/loslc_session1.git
+   cd loslc_session1
+   ```
 
----
+2. **Naviguer vers le répertoire contenant le fichier JavaScript** :
+   ```sh
+   cd path/to/your/javascript/file
+   ```
 
-### 🧭 **Exercice - Algorithme de recherche de chemin (20pts)**
+3. **Exécuter le fichier JavaScript** :
+   ```sh
+   node filename.js
+   ```
 
-**Sujet :** Trouver un chemin dans un labyrinthe avec BFS.
+### Exemple :
+Supposons que vous avez un fichier `example.js` dans le répertoire `src`. Voici comment vous pouvez l'exécuter :
 
-**Énoncé :**  
-Tu as une grille 2D représentée par une liste de listes de 0 (case libre) et 1 (mur). Écris une fonction `trouver_chemin(grille, depart, arrivee)` qui utilise **Breadth-First Search (BFS)** pour trouver le **chemin le plus court** entre deux points.
+1. Naviguez vers le répertoire `src` :
+   ```sh
+   cd src
+   ```
 
-**Exemple de grille :**
+2. Exécutez `example.js` :
+   ```sh
+   node example.js
+   ```
 
-```python
-grille = [
-  [0, 1, 0, 0],
-  [0, 1, 0, 1],
-  [0, 0, 0, 1],
-  [1, 1, 0, 0]
-]
-```
+### Remarques :
+- Remplacez `path/to/your/javascript/file` par le chemin réel du répertoire contenant votre fichier JavaScript.
+- Remplacez `filename.js` par le nom de votre fichier JavaScript.
 
-**Entrée :**  
-`depart = (0, 0)` et `arrivee = (3, 3)`
+Si vous avez des fichiers de configuration ou des dépendances à installer, veuillez inclure des instructions supplémentaires appropriées (par exemple, `npm install`).
 
-**Sortie attendue :**  
-Liste des coordonnées représentant le chemin le plus court, ex: `[(0,0), (1,0), (2,0), (2,1), ..., (3,3)]`
-
----
-
-### 🧮 **Exercice - Interpréteur arithmétique (15pts)**
-
-**Sujet :** Mini interpréteur d'expressions arithmétiques.
-
-**Énoncé :**  
-Écris un petit interpréteur qui peut **évaluer** des expressions arithmétiques simples avec les **opérateurs `+`, `-`, `*`, `/`** et les **parenthèses**.
-
-**Fonction :** `evaluer(expression: str) -> float`
-
-**Exemples :**
-
-```python
-evaluer("2 + 3 * (4 - 1)")  # renvoie 11.0
-evaluer("10 / (2 + 3)")    # renvoie 2.0
-```
-
-Vous aurez besoin de 40 points pour passer à la session suivante.
-
-Lorsque vous finisez, envoyez le nom de votre team et le repo github contenant les 3 projets.
+N'hésitez pas à me poser des questions si vous avez besoin d'aide supplémentaire !
