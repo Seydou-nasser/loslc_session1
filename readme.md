@@ -1,4 +1,3 @@
-Je vais vous montrer comment exécuter chaque fichier dans votre dépôt. Voici un exemple de documentation pour exécuter les fichiers JavaScript dans votre dépôt `Seydou-nasser/loslc_session1` :
 
 ## Exécution des fichiers JavaScript
 
@@ -43,7 +42,3 @@ Supposons que vous avez un fichier `example.js` dans le répertoire `src`. Voici
 ### Remarques :
 - Remplacez `path/to/your/javascript/file` par le chemin réel du répertoire contenant votre fichier JavaScript.
 - Remplacez `filename.js` par le nom de votre fichier JavaScript.
-
-Si vous avez des fichiers de configuration ou des dépendances à installer, veuillez inclure des instructions supplémentaires appropriées (par exemple, `npm install`).
-
-N'hésitez pas à me poser des questions si vous avez besoin d'aide supplémentaire !
